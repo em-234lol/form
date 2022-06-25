@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Trip Resgiration </title>
+</head>
+<body>
+    <div>
+        <h1> Trip App</h1>
+        <p> Pls Full Your Information in the following Form : </p>
+    </div>
+    <div>
+        <form method=" post" acthion="./in.html ">
+            <label for="name"> your name:</label>
+            <input id="name" type="text" name=" user name" placeholder="lina alama" />
+            <hr>
+    </div>
+    <label for=" social name"> your social securty name:</label>
+    <input id="social name" type="number" placeholder="your name" />
+    <hr>
+    <div>
+        <label for="your email "> your email :</label>
+        <input id="your email" type="email" name="email"  placeholder="@gmail.com" />
+            <hr>
+    </div>
+    <div>
+        <label for="daparture" >Date:</label>
+        <input id ="date "  type="date" name ="date " placeholder="xxx-yyyy-zzzz" min="19-6-2022" />
+        <label for="dest"> Destination:</label>
+        <select>
+            <option value ="palestin"> palestin</option>
+            <option value ="jorden"> jorden</option>
+            <option value ="london"> london </option>
+       </select> 
+       <hr>
+    </div>
+    <div>
+        <label for="country">country:</label>
+        <input id="country" type="name" name ="country" placeholder="country">
+        <hr>
+    </div>
+    <div>
+        <lebel for = " gender "> gender </lebel>
+        <input id="radio" name="gender" value ="female" Female>
+        <input id="radio" name="gender" value ="male" Male>
+        <input id="radio" name="gender" value ="non" Non>
+    </div>
+    <hr>
+    <div>
+        <label for="myfile"> Select a file:</label>
+        <input type = "file" name="image"><br>
+    </div>
+    <div>
+        <label for ="Hotel Star" >Hotel Satr</label>
+        <input type="range" id="stars" value="24" min="1" max="100" oninput="update();"  id="num"24><br>
+        
+         <label for ="Extar Notes" > Extra Note</label>
+        <textarea name="Note" id="Note" cols="30" rows="10" placeholder="notes"></textarea><br>
+       
+        
+        <lebel for=" cheak" >cheak</lebel>
+        <input type="checkbox" id="check" name=" check" value="check">include breakfast <br>
+    </div>
+    <p>
+        <button type="submit"  value =" register me "> submit</button>
+        <button type="reset"  value =" clear ">reset</button><br>
+    </p>
+    
+    
+
+    </form>
+
+</body>
+</html>
