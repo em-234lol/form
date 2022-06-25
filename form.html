@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Trip Resgiration </title>
+    <style>
+      table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+ 
+ table{
+    text-align: left; 
+    border: 14px;
+    margin: 5px;
+    padding-bottom: 10px;
+    font-size: medium;
+    background-color: rgb(220, 224, 231); 
+  
+}
+    </style>
+</head>
+<body>
+  <p> Pls Full Your Information in the following Form : </p>
+    <table >
+        
+        <tr><span>
+        <th colspan="2" span="center"> Summer Camp Register Form</th>
+        </span>
+          </tr>
+    <tr>
+        <form method=" post" acthion="./in.html ">
+        <td>    <label for="name"> your name:</label></td>
+         <td>  <input id="name" type="text" name=" user name" placeholder="lina alama" /></td> 
+        
+        </tr>
+        <tr>
+          <td> <label for=" social name"> your social securty name:</label></td>
+          <td><input id="social name" type="text" placeholder="your name" /></td>
+          
+      </tr>
+        <tr>
+    <td> <label for=" Your Phone number">Your Phone number :</label></td>
+    <td><input id="Your Phone number" type="number" placeholder="+970-598-520-925" /></td>
+    
+</tr>
+    <tr>
+     <td>   <label for="your email "> your email :</label></td>
+    <td>    <input id="your email" type="email" name="email"  placeholder="@gmail.com" /></td>
+        
+    </tr>
+    <tr>
+      <td>  <label for="daparture" >Date:</label></td>
+      <td> <input id ="date "  type="date" name ="date " placeholder="xxxx-yyyy-zzzz" min="19-6-2022" /></td> 
+      </tr>
+     <td>  <label for="dest"> Destination:</label></td> 
+       <td> <select name="destination" id="destination">
+            <option value ="palestin"> palestin</option>
+            <option value ="jorden"> jorden</option>
+            <option value ="lebanon"> lebanon </option>
+            <option value ="syria"> stria </option>
+            <option value ="egypt"> egypt </option>
+            <option value ="iraq"> iraq </option>
+            <option value ="japan"> japan </option>
+            <option value ="libya"> libya </option>
+            <option value ="kurdistan"> kurdistan </option>
+            <option value ="saudi">saudi </option>
+            <option value ="bahrain"> bahrain </option>
+       </select> 
+       </td>
+    </tr>
+    <tr>
+       <td> <label for="country">country:</label></td>
+       <td> <input id="country" type="name" name ="country" placeholder="country"></td>
+        
+    </tr>
+    <tr>
+     
+      <td>  <lebel for = " gender "id="genderMale" type="radio"> gender </lebel></td>
+      <td>
+        <label for="genderfemale" > Female</label>
+        <input name="gender" id="genderFemale" type="radio">
+        <label for="genderMale" >Male</label>
+        <input name="gender" id="genderMale" type="radio">
+        <label for="other-gender" >Non</label>
+        <input name="gender" id="other-gender" type="radio">
+  </td>
+    </tr>
+    
+    <tr>
+       <td> <label for="myfile"> Select a file:</label></td>
+      <td>  <input type = "file" name="image"><br></td>
+    </tr>
+    <trcolspan="2">
+       <td > <label for ="Hotel Star" >Hotel Satr</label></td>
+     <td>  
+       <input type="range" id="stars" value="4" min="1" max="5" oninput="update();"  id="num"><br> </td>
+    </tr>
+    <tr>   
+   <td colspan="2"> <label  for ="Extar Notes " >Extra Note </label>
+       <textarea name="Note" id="Note" cols="30" rows="10" placeholder="notes"></textarea><br></td>
+       </tr> 
+       <tr> 
+       <td colspan="2"> <lebel for=" cheak " >cheak     </lebel>
+       <input type="checkbox" id="check" name=" check" value="check">include breakfast <br></td>
+    </tr>
+    <tr >
+       <td colspan="2"> <button type="submit  "  value =" register me "> submit  </button> 
+        <button type="reset"  value =" clear ">reset</button></td>
+        
+    </tr>
+    
+    
+
+    </form>
+    </table>
+</body>
+</html>
